@@ -1,4 +1,5 @@
 
+#include <algorithm>
 #include <atomic>
 #include <chrono>
 #include <cmath>
@@ -7,6 +8,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <new>
+#include <utility>
 #include <vector>
 
 #ifdef _OPENMP

@@ -1,5 +1,4 @@
 
-#include <algorithm>
 #include <atomic>
 #include <chrono>
 #include <cmath>
@@ -8,18 +7,17 @@
 #include <cstdlib>
 #include <cstring>
 #include <new>
-#include <utility>
 #include <vector>
 
 #ifdef _OPENMP
 #include <omp.h>
 #endif
 
-static constexpr int N = 15;
+static constexpr int N = 7;
 static constexpr int Q = N - 1;
 static constexpr int X = 2 * N - 1;
 
-static constexpr int TABLE_LOG2 = 31;
+static constexpr int TABLE_LOG2 = 12;
 
 static constexpr int PREFIX_DEPTH = 4;
 

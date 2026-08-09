@@ -18,7 +18,7 @@
 #include <omp.h>
 #endif
 
-static constexpr int N = 14;
+static constexpr int N = 17;
 static constexpr int Q = N - 1;
 static constexpr int X = 2 * N - 1;
 
@@ -28,7 +28,7 @@ static constexpr int PAIR_TASKS = 2;    // pairs fixed to form parallel tasks
 // Any other value forces exactly that many threads.
 static constexpr int FORCE_THREADS = 0;
 
-static constexpr int DUMP_STATES = 0;   // 1 = write states_N*.bin, 0 = skip
+static constexpr int DUMP_STATES = 1;   // 1 = write states_N*.bin, 0 = skip
 static constexpr int DUMP_TEXT   = 0;   // 0 = binary, 1 = plain text
 
 static_assert(N >= 4, "N must be at least 4");

@@ -18,7 +18,7 @@
 #include <omp.h>
 #endif
 
-static constexpr int N = 17;
+static constexpr int N = 16;
 static constexpr int Q = N - 1;
 static constexpr int X = 2 * N - 1;
 

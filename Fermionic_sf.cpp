@@ -5,6 +5,9 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <new>
+#include <utility>
+#include <functional>
 #include <string>
 #include <vector>
 #ifdef _OPENMP
@@ -25,8 +28,8 @@ using u64 = uint64_t;
 using i64 = int64_t;
 using i128 = __int128;
 
-static constexpr int N_PART = 9;
-static constexpr double PROGRESS_SEC = 10.0;
+static constexpr int N_PART = 12;
+static constexpr double PROGRESS_SEC = 45.0;
 
 static constexpr bool SAVE_STATES_BIN = false;
 static constexpr bool SAVE_STATES_TXT = true;

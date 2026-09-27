@@ -7,6 +7,7 @@
 #include <climits>
 #include <cstdlib>
 #include <filesystem>
+#include <unordered_map>
 #include <string>
 #include <utility>
 #include <vector>
